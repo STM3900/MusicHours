@@ -2,7 +2,7 @@
 MusicHours : Un site par Théo Migeat
 */
 
-let key = '514f4f801d4434a9be417221619c6d85'; //clé de l'API
+let key = 'd2efed3b659cdbaab59e06c45f8673de'; //clé de l'API
 let units = 'metric'; //On utilise les °C ici
 
 var valeurMeteoOK = "unset"; //Cette valeur servira à récuperer la valeur finale de la météo
@@ -177,7 +177,7 @@ cityPosForm.addEventListener("submit", function (e) {
     e.preventDefault();
 });
 
-//Fonction permettant de reset ça ville, remet le site à 0
+//Fonction permettant de reset sa ville, remet le site à 0
 function resetVille() {
     $(".cityPos").slideUp("slow");
     FirstPageFormError.innerHTML = "";
